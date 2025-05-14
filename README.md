@@ -22,7 +22,7 @@ npm install btfcss@system-color-scheme
 Import the package 
 
 ```js
-import systemColorScheme from "system-color-scheme";
+import systemColorScheme from "@btfcss/system-color-scheme";
 ```
 
 ### Get system color scheme
