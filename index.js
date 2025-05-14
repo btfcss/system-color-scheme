@@ -29,8 +29,19 @@ const addEventListenerOnChange = (callback) => {
 }
 
 
-// Returns the functions
+/**
+ * Get the current system color scheme
+ * @returns {string} return the current system color scheme [ "light" | "dark"]
+ */
+const get = () => {
+    return (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+}
+
+
+
+// Export the module
 const systemColorScheme = {
+    get,
     isDark,
     addEventListenerOnChange
 }
