@@ -13,7 +13,7 @@ Note this is not browser or user color scheme. This is **system** color scheme f
 
 
 ```bash
-npm install --save btfcss@system-color-scheme
+npm install btfcss@system-color-scheme
 ```
 
 
