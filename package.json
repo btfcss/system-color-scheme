@@ -1,0 +1,30 @@
+{
+  "name": "system-color-scheme",
+  "version": "1.0.0",
+  "description": "System color scheme manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btfcss/system-color-scheme.git"
+  },
+  "keywords": [
+    "Color",
+    "Scheme",
+    "System",
+    "Dark",
+    "Light",
+    "Theme"
+  ],
+  "author": "Merlin Chatou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btfcss/system-color-scheme/issues"
+  },
+  "homepage": "https://github.com/btfcss/system-color-scheme#readme",
+  "volta": {
+    "node": "20.18.2"
+  }
+}
