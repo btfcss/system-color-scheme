@@ -1,6 +1,6 @@
 # system-color-scheme
 
-This package manage system (OS or browser) color scheme. 
+This npm package manage system (OS or browser) color scheme. 
 Note this is not browser or user color scheme. This is **system** color scheme from operating system or browser settings. 
 
 
