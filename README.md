@@ -27,7 +27,16 @@ import systemColorScheme from "@btfcss/system-color-scheme";
 
 ### Get system color scheme
 
-The `isDark()` function returns true if the system color scheme is dark, false otherwise. 
+The `get()` function returns a string containing system color scheme `[ "light" | "dark" ] :
+
+``` js
+// Should display "light" or "dark"
+console.log (systemColorScheme.get());
+```
+
+
+
+Alternatively, the `isDark()` function returns true if the system color scheme is dark, false otherwise. 
 
 The following code log the system color scheme in the console
 
@@ -38,6 +47,10 @@ if (systemColorScheme.isDark())
 else
   console.log ('System color scheme is light');
 ```
+
+---
+
+
 
 ### Detect system color scheme changes
 
