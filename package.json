@@ -1,6 +1,6 @@
 {
   "name": "@btfcss/system-color-scheme",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "System color scheme manager",
   "main": "index.js",
   "scripts": {
